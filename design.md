@@ -4,6 +4,5 @@
 ### Java -> Spring MVC? vs. flask?
 ### Persistence
 postgreSQL ?
-mongoDB ?
-  GridFS for image storing
+mongoDB + GridFS for image storing ?
 
