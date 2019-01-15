@@ -5,4 +5,6 @@
 ### Persistence
 postgreSQL ?
 mongoDB + GridFS for image storing ?
+### Deployment
+Heroku
 
