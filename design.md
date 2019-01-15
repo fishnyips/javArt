@@ -1,7 +1,9 @@
 # Initial Design
+
+## Tech Stack
 ### Java -> Spring MVC? vs. flask?
 ### Persistence
-#### postgreSQL ?
-#### mongoDB ?
-##### GridFS for image storing
+postgreSQL ?
+mongoDB ?
+  GridFS for image storing
 
