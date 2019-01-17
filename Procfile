@@ -1,1 +1,1 @@
-web: python strokeInit.py
+web: python app/strokeInit.py
