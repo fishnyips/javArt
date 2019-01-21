@@ -1,0 +1,14 @@
+Frontend: Angular 
+-> routing: 2 things = path + component
+
+Backend: Express > subset of Node
+->
+
+Persistence: mongoDB
+
+Misc: 
+Babel
+-> js compiler
+
+Mongoose
+-> modelling  tool for mongoDB
