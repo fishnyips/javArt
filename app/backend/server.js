@@ -7,7 +7,7 @@ const app = express();
 const router = express.Router();
 app.use(cors());
 app.use(bodyParser.json());
-mongoose.connect('mongodb://localhost:27017/entries');
+mongoose.connect('mongodb://localhost:27017/test');
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log('MongoDB database connection established successfully!');
@@ -18,6 +18,7 @@ router.route('/entries').get((req, res) => {
         if (err)
             console.log(err);
         else
+            console.log(entries);
             res.json(entries);
     });
 });
