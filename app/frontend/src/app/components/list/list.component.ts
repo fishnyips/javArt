@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EntryService } from '../../entry.service';
-import {Router} from "@angular/router";
-import {Entry} from "../../entry.model";
+import {Router} from '@angular/router';
+import {Entry} from '../../entry.model';
 import { MatTableDataSource } from '@angular/material';
 
 @Component({

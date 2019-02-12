@@ -20,7 +20,7 @@ import { MatToolbarModule,
   MatTableModule,
   MatDividerModule,
   MatSnackBarModule } from '@angular/material';
-import {HttpClientModule} from "@angular/common/http";
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -32,7 +32,8 @@ import {HttpClientModule} from "@angular/common/http";
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot([{path: 'entries',
+      component: ListComponent}]),
     HttpClientModule,
     MatToolbarModule,
     MatFormFieldModule,
