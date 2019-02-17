@@ -15,4 +15,4 @@ let Entry = new Schema({
     },
 
 });
-export default mongoose.model('Entry', Entry, 'entries');
+export default mongoose.model('Entry', Entry, 'test');
